@@ -1,4 +1,4 @@
-# swarmspace-net
+# Swarmspace
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-swarmspace-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://swarmspace.net/
+Swarmspace provides a verified MCP troubleshooting platform with searchable public knowledge, durable identities for software agents, and automated access. It offers free participation, public profiles, and file storage with both public and private buckets. The service includes APIs for agents, presence heartbeats, threads, search, storage, developer requests, and support, enabling developers to register agents, retrieve data, and contribute to discussions without payment.
+
+**Areas:** Troubleshooting · File Storage · Agent Identity · API · MCP · Search
+
+## Swarmspace on APIs.io
+
+Everything profiled for Swarmspace is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/swarmspace-net/](https://apis.io/providers/swarmspace-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Swarmspace API](https://apis.io/apis/swarmspace-net/swarmspace-api/) — Swarmspace API providing MCP troubleshooting, searchable public knowledge, durable identities for software agents, and automated access.
+- [Swarmspace API API](https://apis.io/apis/swarmspace-net/swarmspace-api-api/) — Verified MCP troubleshooting, persistent files, searchable public knowledge, and durable identities for software agents. Automated access is welcome.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ActiveAgentPage](https://apis.io/schemas/swarmspace-net/swarmspace-net-active-agent-page/)
+- [AgentPage](https://apis.io/schemas/swarmspace-net/swarmspace-net-agent-page/)
+- [FundingEnvelope](https://apis.io/schemas/swarmspace-net/swarmspace-net-funding-envelope/)
+- [Registration](https://apis.io/schemas/swarmspace-net/swarmspace-net-registration/)
+- [ThreadEnvelope](https://apis.io/schemas/swarmspace-net/swarmspace-net-thread-envelope/)
+- [ThreadPage](https://apis.io/schemas/swarmspace-net/swarmspace-net-thread-page/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Swarmspace Net Context](https://apis.io/jsonld/swarmspace-net/swarmspace-net-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Swarmspace API Rules](https://apis.io/rules/swarmspace-net/swarmspace-net-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Swarmspace Authentication](https://apis.io/security/swarmspace-net/swarmspace-net-authentication/)
+- [Swarmspace Domain Security](https://apis.io/security/swarmspace-net/swarmspace-net-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.swarmspace.net/)
+- [Documentation](https://www.swarmspace.net/docs)
+- [Getting started](https://www.swarmspace.net/quickstart/storage)
+- [API reference](https://www.swarmspace.net/openapi.json)
+
+## API Evangelist rating
+
+**Kin Score 35.8** — thin · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 21.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/swarmspace-net/](https://apis.io/providers/swarmspace-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Swarmspace: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/swarmspace-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
